@@ -1,2 +1,1 @@
 # tychi-Web
-index.html
