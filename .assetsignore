@@ -1,0 +1,9 @@
+# サイトとして公開しないファイル（.gitignore と同じ書き方）
+.git
+.gitignore
+.assetsignore
+.wrangler
+wrangler.jsonc
+README.md
+CNAME
+node_modules
