@@ -1,0 +1,12 @@
+{
+  // Cloudflare Workers でこのリポジトリをそのまま配信する設定。
+  // name はダッシュボードの Worker 名と一致させる（違うとビルドが失敗する）。
+  "name": "tychi-web",
+  "compatibility_date": "2026-11-18",
+  "assets": {
+    // 公開するファイルは .assetsignore の許可リストで決める。
+    "directory": "."
+  },
+  // PR ごとの確認用 URL（wrangler preview）に必要。空でよい。
+  "previews": {}
+}
