@@ -1,9 +1,15 @@
-# サイトとして公開しないファイル（.gitignore と同じ書き方）
-.git
-.gitignore
-.assetsignore
-.wrangler
-wrangler.jsonc
-README.md
-CNAME
-node_modules
+# 公開するファイルの許可リスト（.gitignore と同じ書き方）
+# 最初に全部を外し、公開するものだけを ! で戻す。
+# ページや写真のフォルダを足したら、ここにも 1 行足すこと。
+/*
+!/index.html
+!/about.html
+!/works.html
+!/activities.html
+!/contact.html
+!/style.css
+!/favicon.svg
+!/photos/
+
+# 許可したフォルダの中でも、OS が作るファイルは出さない
+.DS_Store

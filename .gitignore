@@ -1,0 +1,7 @@
+# git に入れないもの
+.DS_Store
+.env*
+.dev.vars*
+.wrangler/
+node_modules/
+Photos_from_LINE/

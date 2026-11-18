@@ -4,6 +4,9 @@
   "name": "tychi-web",
   "compatibility_date": "2026-11-18",
   "assets": {
+    // 公開するファイルは .assetsignore の許可リストで決める。
     "directory": "."
-  }
+  },
+  // PR ごとの確認用 URL（wrangler preview）に必要。空でよい。
+  "previews": {}
 }
