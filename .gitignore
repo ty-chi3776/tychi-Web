@@ -1,4 +1,5 @@
-# git に入れないもの
+# 手元のパソコンの git で commit しないもの。
+# GitHub の画面からのアップロードは止めない。公開されるものは .assetsignore で決まる。
 .DS_Store
 .env*
 .dev.vars*
